@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useCallback, useState } from "react";
+import lanesLogo from "./laneslogo.png";
 
 function scrollToSection(id) {
   if (typeof window === "undefined") return;
@@ -46,7 +48,16 @@ export default function HomePage() {
       <header className="nav">
         <div className="nav-inner container">
           <div className="logo">
-            <span className="logo-mark">▰</span>
+            <span className="logo-mark">
+              <Image
+                src={lanesLogo}
+                alt="Lanes logo"
+                className="logo-image"
+                fill
+                sizes="32px"
+                priority
+              />
+            </span>
             <span className="logo-text">Lanes</span>
           </div>
 
@@ -502,7 +513,15 @@ export default function HomePage() {
         <div className="container footer-inner">
           <div className="footer-left">
             <div className="logo footer-logo">
-              <span className="logo-mark">▰</span>
+              <span className="logo-mark">
+                <Image
+                  src={lanesLogo}
+                  alt="Lanes logo"
+                  className="logo-image"
+                  fill
+                  sizes="32px"
+                />
+              </span>
               <span className="logo-text">Lanes</span>
             </div>
             <p className="footer-copy">

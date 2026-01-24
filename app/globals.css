@@ -95,22 +95,21 @@ button {
 }
 
 .logo-mark {
+  position: relative;
   width: 22px;
   height: 22px;
   border-radius: 7px;
-  background: conic-gradient(
-    from 160deg,
-    #f97316,
-    #fb923c,
-    #facc15,
-    #f97316
-  );
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #020617;
   font-size: 11px;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
+  overflow: hidden;
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.logo-image {
+  object-fit: contain;
 }
 
 .nav-links {

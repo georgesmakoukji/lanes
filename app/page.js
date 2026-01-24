@@ -53,8 +53,8 @@ export default function HomePage() {
                 src={lanesLogo}
                 alt="Lanes logo"
                 className="logo-image"
-                fill
-                sizes="32px"
+                width={72}
+                height={72}
                 priority
               />
             </span>
@@ -518,8 +518,8 @@ export default function HomePage() {
                   src={lanesLogo}
                   alt="Lanes logo"
                   className="logo-image"
-                  fill
-                  sizes="32px"
+                  width={72}
+                  height={72}
                 />
               </span>
               <span className="logo-text">Lanes</span>

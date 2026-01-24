@@ -2,9 +2,9 @@
   --bg: #050713;
   --bg-elevated: #0b0f23;
   --bg-elevated-soft: #101630;
-  --accent: #f97316;
-  --accent-soft: rgba(249, 115, 22, 0.16);
-  --accent-strong: #ea580c;
+  --accent: #4f46e5;
+  --accent-soft: rgba(79, 70, 229, 0.12);
+  --accent-strong: #7c3aed;
   --accent-green: #22c55e;
   --text: #f9fafb;
   --text-muted: #9ca3af;
@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: radial-gradient(circle at top, #451a03 0, #050713 46%, #050713 100%);
+  background: radial-gradient(circle at top, #1d254a 0, #050713 46%, #050713 100%);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
 }
@@ -96,16 +96,22 @@ button {
 
 .logo-mark {
   position: relative;
-  width: 22px;
-  height: 22px;
-  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: conic-gradient(
+    from 160deg,
+    #4f46e5,
+    #22c55e,
+    #0ea5e9,
+    #4f46e5
+  );
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 11px;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.8);
   overflow: hidden;
-  background: rgba(15, 23, 42, 0.9);
 }
 
 .logo-image {
@@ -139,7 +145,7 @@ button {
   width: 0;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #f97316, #ea580c);
+  background: linear-gradient(90deg, #4f46e5, #7c3aed);
   transition: width 0.18s ease;
 }
 
@@ -156,7 +162,7 @@ button {
   border: 1px solid rgba(148, 163, 184, 0.5);
   padding: 7px 14px;
   font-size: 13px;
-  background: linear-gradient(to bottom right, #1f2937, #020617);
+  background: linear-gradient(to bottom right, #111827, #020617);
   color: #e5e7eb;
   display: inline-flex;
   align-items: center;
@@ -212,8 +218,8 @@ button {
   position: absolute;
   inset: -120px 0 auto;
   background:
-    radial-gradient(circle at top left, rgba(248, 113, 22, 0.32), transparent 55%),
-    radial-gradient(circle at top right, rgba(250, 204, 21, 0.3), transparent 60%);
+    radial-gradient(circle at top left, rgba(79, 70, 229, 0.28), transparent 55%),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.3), transparent 60%);
   opacity: 0.85;
   pointer-events: none;
   z-index: -1;
@@ -278,14 +284,14 @@ button {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #f97316, #ea580c);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
   color: #f9fafb;
-  box-shadow: 0 14px 45px rgba(248, 113, 22, 0.5);
+  box-shadow: 0 14px 45px rgba(79, 70, 229, 0.5);
 }
 
 .btn-primary:hover {
   transform: translateY(-0.5px);
-  box-shadow: 0 22px 55px rgba(248, 113, 22, 0.7);
+  box-shadow: 0 22px 55px rgba(79, 70, 229, 0.7);
 }
 
 .btn-ghost {
@@ -346,8 +352,8 @@ button {
 
 .hero-card.primary {
   background:
-    radial-gradient(circle at top left, rgba(248, 113, 22, 0.2), transparent 55%),
-    radial-gradient(circle at top right, rgba(250, 204, 21, 0.22), transparent 65%),
+    radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 55%),
+    radial-gradient(circle at top right, rgba(79, 70, 229, 0.25), transparent 65%),
     #020617;
 }
 
@@ -424,9 +430,9 @@ button {
 }
 
 .pill-green {
-  background: rgba(251, 146, 60, 0.16);
-  color: #fed7aa;
-  border: 1px solid rgba(249, 115, 22, 0.8);
+  background: rgba(16, 185, 129, 0.12);
+  color: #a7f3d0;
+  border: 1px solid rgba(52, 211, 153, 0.7);
 }
 
 .pill-soft {
@@ -478,7 +484,7 @@ button {
 .section-alt {
   background: radial-gradient(
       circle at top left,
-      rgba(154, 52, 18, 0.6),
+      rgba(30, 64, 175, 0.55),
       transparent 55%
     ),
     #020617;
@@ -559,7 +565,7 @@ button {
   width: 26px;
   height: 26px;
   border-radius: 9px;
-  background: linear-gradient(135deg, #f97316, #facc15);
+  background: linear-gradient(135deg, #4f46e5, #22c55e);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -608,7 +614,7 @@ button {
   height: 8px;
   margin-top: 7px;
   border-radius: 999px;
-  background: radial-gradient(circle, #f97316, #ea580c);
+  background: radial-gradient(circle, #4f46e5, #7c3aed);
 }
 
 .benefits-list h3 {

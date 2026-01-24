@@ -251,6 +251,11 @@ button {
   color: #a5b4fc;
 }
 
+.eyebrow-dot {
+  font-size: 13px;
+  color: rgba(148, 163, 184, 0.8);
+}
+
 .hero-actions {
   display: flex;
   align-items: center;
@@ -769,6 +774,19 @@ button {
   margin: 0;
   font-size: 13px;
   color: #e5e7eb;
+}
+
+.contact-person-name {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.contact-person-role {
+  margin: 2px 0 6px;
+  font-size: 12px;
+  color: var(--text-muted);
 }
 
 .footer {

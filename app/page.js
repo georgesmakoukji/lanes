@@ -93,7 +93,11 @@ export default function HomePage() {
           <div className="hero-bg-gradient" />
           <div className="hero-inner container">
             <div className="hero-content">
-              <p className="eyebrow">Shipping facilitation for modern teams</p>
+              <p className="eyebrow">
+                Shipping facilitation for modern teams
+                <span className="eyebrow-dot">•</span>
+                Based in Lebanon
+              </p>
               <h1>
                 We orchestrate your shipping
                 <br />
@@ -102,7 +106,8 @@ export default function HomePage() {
               <p className="hero-subtitle">
                 Lanes connects carriers, warehouses, and customs into one clean
                 workflow. We remove friction, reduce costs, and give your team
-                real-time visibility across every shipment.
+                real-time visibility across every shipment — from Lebanon to the
+                rest of the world.
               </p>
 
               <div className="hero-actions">
@@ -134,6 +139,10 @@ export default function HomePage() {
                 <div>
                   <p className="metric-label">Countries covered</p>
                   <p className="metric-value">120+</p>
+                </div>
+                <div>
+                  <p className="metric-label">Headquarters</p>
+                  <p className="metric-value">Beirut, Lebanon</p>
                 </div>
               </div>
             </div>
@@ -362,7 +371,8 @@ export default function HomePage() {
               <h2>Tell us about your shipping network.</h2>
               <p className="section-subtitle">
                 Share a few details and we’ll come back with practical
-                recommendations, not a generic sales deck.
+                recommendations, not a generic sales deck. Your primary contact
+                will be Joe Ghaleb, based in Lebanon.
               </p>
             </div>
 
@@ -453,6 +463,14 @@ export default function HomePage() {
 
               <aside className="contact-aside">
                 <div className="mini-card">
+                  <p className="mini-label">Your contact</p>
+                  <p className="contact-person-name">Joe Ghaleb</p>
+                  <p className="contact-person-role">
+                    Client Partnerships · Beirut, Lebanon
+                  </p>
+                  <p className="mini-main">joe@lanes.ship</p>
+                </div>
+                <div className="mini-card">
                   <p className="mini-label">Example outcomes</p>
                   <ul className="mini-list">
                     <li>
@@ -470,7 +488,8 @@ export default function HomePage() {
                 <div className="mini-card secondary">
                   <p className="mini-label">Based in</p>
                   <p className="mini-main">
-                    Global, with partners across EU, US, and MENA.
+                    Headquartered in Lebanon, operating with partners across EU,
+                    US, and MENA.
                   </p>
                 </div>
               </aside>
@@ -515,7 +534,9 @@ export default function HomePage() {
               <button type="button" onClick={() => handleNavLinkClick("contact")}>
                 Talk to our team
               </button>
-              <span className="footer-text">Email: hello@lanes.ship</span>
+                <span className="footer-text">Primary contact: Joe Ghaleb</span>
+                <span className="footer-text">Email: joe@lanes.ship</span>
+                <span className="footer-text">Location: Beirut, Lebanon</span>
             </div>
           </div>
         </div>

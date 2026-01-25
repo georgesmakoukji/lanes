@@ -105,20 +105,20 @@ export default function HomePage() {
           <div className="hero-inner container">
             <div className="hero-content">
               <p className="eyebrow">
-                Shipping facilitation for modern teams
+                Lebanon-based shipping partner
                 <span className="eyebrow-dot">•</span>
-                Based in Lebanon
+                Serving global lanes
               </p>
               <h1>
-                We orchestrate your shipping
+                Lebanon-born shipping
                 <br />
-                so you can focus on growth.
+                with worldwide reach.
               </h1>
               <p className="hero-subtitle">
-                Lanes connects carriers, warehouses, and customs into one clean
-                workflow. We remove friction, reduce costs, and give your team
-                real-time visibility across every shipment — from Lebanon to the
-                rest of the world.
+                Lanes is a Beirut-based shipping company that connects carriers,
+                ports, and warehouses into one clean workflow. We move containers
+                in and out of Lebanon every day, while giving you real-time
+                visibility across lanes worldwide.
               </p>
 
               <div className="hero-actions">
@@ -210,45 +210,48 @@ export default function HomePage() {
           <div className="container">
             <div className="section-header">
               <p className="eyebrow">What we do</p>
-              <h2>Shipping facilitation from first quote to final delivery.</h2>
+              <h2>Lebanon hub, worldwide shipping network.</h2>
               <p className="section-subtitle">
-                Lanes sits between your systems and the logistics world, turning
-                scattered carriers and documents into one coordinated flow.
+                From Beirut to any port or airport on your map, Lanes coordinates
+                the carriers, documents, and partners needed to keep your cargo
+                flowing.
               </p>
             </div>
 
             <div className="grid grid-3">
               <article className="card">
-                <h3>Carrier &amp; route orchestration</h3>
+                <h3>Lebanon gateway routing</h3>
                 <p>
-                  We match your shipments with the best carrier and lane for
-                  cost, speed, and reliability — automatically and at scale.
+                  We design and operate routes that use Lebanon as a flexible
+                  gateway, matching your shipments with the best carriers and
+                  lanes for cost, speed, and reliability.
                 </p>
                 <ul className="card-list">
-                  <li>Multi-carrier optimization</li>
-                  <li>Dynamic routing rules</li>
-                  <li>Performance-based allocation</li>
+                  <li>Sea, air, and road options from Beirut</li>
+                  <li>Dynamic routing based on lead time and cost</li>
+                  <li>Preferred partners across EU, US, and MENA</li>
                 </ul>
               </article>
 
               <article className="card">
                 <h3>Customs &amp; documentation</h3>
                 <p>
-                  We prepare, validate, and route documents ahead of time to keep
-                  customs from slowing your operations down.
+                  We prepare, validate, and route documents ahead of time so your
+                  freight clears Lebanese and international customs smoothly.
                 </p>
                 <ul className="card-list">
-                  <li>Automated document checks</li>
-                  <li>Global customs partners</li>
-                  <li>Exception handling workflows</li>
+                  <li>Origin &amp; destination customs coordination</li>
+                  <li>Trade lanes tailored to Lebanon compliance</li>
+                  <li>Exception handling before it hits the port</li>
                 </ul>
               </article>
 
               <article className="card">
                 <h3>Control tower visibility</h3>
                 <p>
-                  See your entire network at a glance — with live statuses,
-                  predictive delays, and alerts that your team can act on.
+                  See your Lebanon operations and global lanes at a glance — with
+                  live statuses, predictive delays, and alerts that your team can
+                  act on.
                 </p>
                 <ul className="card-list">
                   <li>Live shipment tracking</li>
@@ -264,19 +267,18 @@ export default function HomePage() {
           <div className="container">
             <div className="section-header">
               <p className="eyebrow">How it works</p>
-              <h2>
-                We plug into your stack, then orchestrate everything behind it.
-              </h2>
+              <h2>We turn Lebanon into your most reliable lane.</h2>
             </div>
 
             <div className="steps">
               <div className="step">
                 <div className="step-number">1</div>
                 <div className="step-body">
-                  <h3>Understand your lanes and constraints</h3>
+                  <h3>Map your flows through Lebanon</h3>
                   <p>
-                    We map your shipping flows, SLAs, carrier contracts, and
-                    operational quirks to design the right facilitation layer.
+                    We map how your cargo moves today, where Lebanon fits in your
+                    network, and what reliability or cost targets you need to
+                    hit.
                   </p>
                 </div>
               </div>
@@ -285,28 +287,30 @@ export default function HomePage() {
                 <div className="step-body">
                   <h3>Connect systems, carriers, and partners</h3>
                   <p>
-                    Lanes integrates with your WMS, TMS, ERP, and carriers to pull
-                    live data and push clean, structured instructions.
+                    Lanes connects your systems with local and international
+                    carriers, 3PLs, and port partners so instructions stay
+                    consistent end-to-end.
                   </p>
                 </div>
               </div>
               <div className="step">
                 <div className="step-number">3</div>
                 <div className="step-body">
-                  <h3>Automate decisions &amp; surface exceptions</h3>
+                  <h3>Automate routing &amp; surface exceptions</h3>
                   <p>
-                    We automate the repetitive logistics decisions while routing
-                    edge cases to your team with full context and next steps.
+                    We automate repetitive routing and documentation while
+                    flagging exceptions with clear context and next steps for
+                    your team.
                   </p>
                 </div>
               </div>
               <div className="step">
                 <div className="step-number">4</div>
                 <div className="step-body">
-                  <h3>Optimize continuously</h3>
+                  <h3>Optimize lanes as you grow</h3>
                   <p>
-                    We monitor performance, renegotiate lanes where needed, and
-                    keep your network running smoothly as you scale.
+                    We monitor lane performance, adjust carrier mixes, and help
+                    you scale volumes through Lebanon without losing control.
                   </p>
                 </div>
               </div>
@@ -319,19 +323,21 @@ export default function HomePage() {
             <div className="section-layout">
               <div className="section-copy">
                 <p className="eyebrow">Why Lanes</p>
-                <h2>More than a broker. A facilitation partner.</h2>
+                <h2>More than a broker. A Lebanon-based partner.</h2>
                 <p className="section-subtitle">
                   Traditional brokers move boxes from A to B. Lanes builds the
-                  connective tissue that lets your entire operation move in sync.
+                  connective tissue that lets your Lebanon operations and global
+                  lanes move in sync.
                 </p>
                 <ul className="benefits-list">
                   <li>
                     <span className="benefit-dot" />
                     <div>
-                      <h3>Designed for operators</h3>
+                      <h3>Built from Beirut for operators</h3>
                       <p>
-                        We sit with your operations team to understand their real
-                        day-to-day and design flows that actually work for them.
+                        We sit with your operations team in Lebanon or remotely
+                        to understand their real day-to-day and design flows that
+                        actually work.
                       </p>
                     </div>
                   </li>
@@ -341,7 +347,8 @@ export default function HomePage() {
                       <h3>Data, not guesswork</h3>
                       <p>
                         Every lane, carrier, and exception is measured so you can
-                        make better contracts and capacity decisions.
+                        make better contracts and capacity decisions across your
+                        Lebanon and global network.
                       </p>
                     </div>
                   </li>

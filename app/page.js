@@ -58,7 +58,6 @@ export default function HomePage() {
                 priority
               />
             </span>
-            <span className="logo-text">Lanes</span>
           </div>
 
           <nav

@@ -96,13 +96,11 @@ button {
   z-index: 100;
   width: 100%;
   border-bottom: 1px solid var(--border-glass);
-  background: linear-gradient(
-    to bottom,
-    rgba(15, 23, 42, 0.96),
-    rgba(15, 23, 42, 0.9),
-    rgba(15, 23, 42, 0.8),
-    transparent
-  );
+  background: linear-gradient(to bottom,
+      rgba(15, 23, 42, 0.96),
+      rgba(15, 23, 42, 0.9),
+      rgba(15, 23, 42, 0.8),
+      transparent);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
@@ -128,29 +126,30 @@ button {
 
 .logo-mark {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 14px;
-  background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.4);
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.8);
+  border-radius: 12px;
+  background: transparent;
+  /* Removed white background container */
 }
 
 .logo-image {
-  width: 46px;
-  height: 46px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  filter: none;
+  filter: invert(1) hue-rotate(180deg);
+  /* Invert to make white bg black, then screen it */
+  mix-blend-mode: screen;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
   gap: 32px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-muted);
@@ -204,7 +203,8 @@ button {
 }
 
 .hero-content h1 {
-  font-size: 4.5rem;
+  font-size: clamp(3.5rem, 5vw + 1rem, 6.5rem);
+  /* Increased max size */
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -217,7 +217,8 @@ button {
 }
 
 .hero-subtitle {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  /* Increased from 1.125rem */
   line-height: 1.6;
   color: var(--text-muted);
   max-width: 500px;
@@ -447,13 +448,15 @@ button {
 }
 
 .section-header h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  /* Increased from 2.5rem */
   color: var(--text);
   margin-bottom: 16px;
 }
 
 .section-subtitle {
-  font-size: 16px;
+  font-size: 1.125rem;
+  /* Increased from 1rem default/16px */
   color: var(--text-muted);
   max-width: 600px;
   line-height: 1.6;
@@ -485,7 +488,8 @@ button {
 }
 
 .card h3 {
-  font-size: 20px;
+  font-size: 24px;
+  /* Increased from 20px */
   margin-bottom: 12px;
   color: var(--text);
 }

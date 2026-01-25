@@ -184,8 +184,8 @@ button {
 /* HERO */
 .hero {
   position: relative;
-  padding: 120px 0 100px;
-  overflow: hidden;
+  padding: 160px 0 140px; /* Increased padding */
+  overflow: visible; /* Changed from hidden to allow 3D elements */
 }
 
 .hero-bg-gradient {
@@ -298,7 +298,7 @@ button {
 
 .hero-metadata>div {
   background: rgba(10, 10, 15, 0.4);
-  padding: 16px;
+  padding: 20px; /* Increased padding */
   backdrop-filter: blur(10px);
 }
 
@@ -453,7 +453,7 @@ button {
   font-size: 3.5rem;
   /* Increased from 2.5rem */
   color: var(--text);
-  margin-bottom: 16px;
+  margin-bottom: 24px; /* Increased breathing room */
 }
 
 .section-subtitle {
@@ -539,7 +539,7 @@ button {
 .step-number {
   font-size: 48px;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.15); /* Increased contrast */
   line-height: 1;
   margin-bottom: 16px;
 }
@@ -666,7 +666,7 @@ button {
 /* FOOTER */
 .footer {
   border-top: 1px solid var(--border-glass);
-  padding: 80px 0 40px;
+  padding: 100px 0 60px; /* Increased padding */
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -718,7 +718,19 @@ button {
   display: flex;
   justify-content: space-between;
   color: var(--text-dim);
-  font-size: 12px;
+  font-size: 13px; /* Slightly larger */
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 320px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 80px;
 }
 
 /* MOBILE RESPONSIVE TWEAKS */

@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useCallback, useState } from "react";
-import lanesLogo from "./lanes_logo_transparent.png";
 
 function scrollToSection(id) {
   if (typeof window === "undefined") return;
@@ -50,7 +49,7 @@ export default function HomePage() {
           <div className="logo">
             <span className="logo-mark">
               <Image
-                src={lanesLogo}
+                src="/lanes-logo.png"
                 alt="Lanes logo"
                 className="logo-image"
                 width={120}

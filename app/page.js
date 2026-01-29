@@ -509,14 +509,13 @@ export default function HomePage() {
             <div className="logo footer-logo">
               <span className="logo-mark">
                 <Image
-                  src={lanesLogo}
+                  src="/lanes-logo.png"
                   alt="Lanes logo"
                   className="logo-image"
-                  width={160}
-                  height={60}
+                  width={120}
+                  height={72}
                 />
               </span>
-              <span className="logo-text">Lanes</span>
             </div>
             <p className="footer-copy">
               Lanes is a shipping facilitation company helping teams orchestrate

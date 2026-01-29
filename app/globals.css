@@ -22,7 +22,7 @@
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-pill: 9999px;
-  --nav-height: 104px;
+  --nav-height: 120px;
 }
 
 *,
@@ -107,7 +107,7 @@ button {
   align-items: center;
   justify-content: space-between;
   height: var(--nav-height);
-  padding: 0 32px;
+  padding: 0 40px;
 }
 
 .logo {
@@ -142,8 +142,8 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 56px;
-  font-size: 26px;
+  gap: 72px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;

@@ -22,7 +22,7 @@
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-pill: 9999px;
-  --nav-height: 80px;
+  --nav-height: 104px;
 }
 
 *,
@@ -107,7 +107,7 @@ button {
   align-items: center;
   justify-content: space-between;
   height: var(--nav-height);
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 .logo {
@@ -124,16 +124,16 @@ button {
 
 .logo-mark {
   position: relative;
-  width: 120px;
-  height: 72px;
+  width: 160px;
+  height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .logo-image {
-  width: 120px;
-  height: 72px;
+  width: 160px;
+  height: 96px;
   object-fit: contain;
   filter: none;
   mix-blend-mode: normal;
@@ -142,8 +142,8 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 40px;
-  font-size: 20px;
+  gap: 48px;
+  font-size: 22px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #475569;

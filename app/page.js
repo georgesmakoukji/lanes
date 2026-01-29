@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useState } from "react";
-import lanesLogo from "./laneslogo.png";
+import lanesLogo from "./lanes_logo_transparent.png";
 
 function scrollToSection(id) {
   if (typeof window === "undefined") return;
@@ -53,7 +53,7 @@ export default function HomePage() {
                 src={lanesLogo}
                 alt="Lanes logo"
                 className="logo-image"
-                width={72}
+                width={120}
                 height={72}
                 priority
               />
@@ -513,8 +513,8 @@ export default function HomePage() {
                   src={lanesLogo}
                   alt="Lanes logo"
                   className="logo-image"
-                  width={72}
-                  height={72}
+                  width={160}
+                  height={60}
                 />
               </span>
               <span className="logo-text">Lanes</span>
@@ -548,9 +548,9 @@ export default function HomePage() {
               <button type="button" onClick={() => handleNavLinkClick("contact")}>
                 Talk to our team
               </button>
-                <span className="footer-text">Primary contact: Joe Ghaleb</span>
-                <span className="footer-text">Email: joe@lanes.ship</span>
-                <span className="footer-text">Location: Beirut, Lebanon</span>
+              <span className="footer-text">Primary contact: Joe Ghaleb</span>
+              <span className="footer-text">Email: joe@lanes.ship</span>
+              <span className="footer-text">Location: Beirut, Lebanon</span>
             </div>
           </div>
         </div>

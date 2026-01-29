@@ -95,14 +95,9 @@ button {
   top: 0;
   z-index: 100;
   width: 100%;
-  border-bottom: 1px solid var(--border-glass);
-  background: linear-gradient(
-    to bottom,
-    #020617,
-    #020617,
-    rgba(15, 23, 42, 0.9),
-    transparent
-  );
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  /* Solid light background so the colored logo stays crisp and fully visible */
+  background-color: #ffffff;
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
@@ -123,25 +118,22 @@ button {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-size: 15px;
-  color: var(--text);
+  color: #0f172a;
+  /* Dark text for light header */
 }
 
 .logo-mark {
   position: relative;
-  width: 88px;
-  height: 88px;
+  width: 120px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
-  background: #020617;
-  border: 1px solid rgba(148, 163, 184, 0.5);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
 }
 
 .logo-image {
-  width: 100%;
-  height: 100%;
+  width: 120px;
+  height: 72px;
   object-fit: contain;
   filter: none;
   mix-blend-mode: normal;
@@ -150,15 +142,17 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 32px;
-  font-size: 18px;
-  letter-spacing: 0.08em;
+  gap: 40px;
+  font-size: 20px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: #475569;
+  /* Slate 600 */
 }
 
 .nav-links button:hover {
-  color: var(--text);
+  color: #0f172a;
+  /* Slate 900 */
 }
 
 .nav-cta {
@@ -184,8 +178,10 @@ button {
 /* HERO */
 .hero {
   position: relative;
-  padding: 160px 0 140px; /* Increased padding */
-  overflow: visible; /* Changed from hidden to allow 3D elements */
+  padding: 160px 0 140px;
+  /* Increased padding */
+  overflow: visible;
+  /* Changed from hidden to allow 3D elements */
 }
 
 .hero-bg-gradient {
@@ -298,7 +294,8 @@ button {
 
 .hero-metadata>div {
   background: rgba(10, 10, 15, 0.4);
-  padding: 20px; /* Increased padding */
+  padding: 20px;
+  /* Increased padding */
   backdrop-filter: blur(10px);
 }
 
@@ -453,7 +450,8 @@ button {
   font-size: 3.5rem;
   /* Increased from 2.5rem */
   color: var(--text);
-  margin-bottom: 24px; /* Increased breathing room */
+  margin-bottom: 24px;
+  /* Increased breathing room */
 }
 
 .section-subtitle {
@@ -539,7 +537,8 @@ button {
 .step-number {
   font-size: 48px;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.15); /* Increased contrast */
+  color: rgba(255, 255, 255, 0.15);
+  /* Increased contrast */
   line-height: 1;
   margin-bottom: 16px;
 }
@@ -666,7 +665,8 @@ button {
 /* FOOTER */
 .footer {
   border-top: 1px solid var(--border-glass);
-  padding: 100px 0 60px; /* Increased padding */
+  padding: 100px 0 60px;
+  /* Increased padding */
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -709,6 +709,14 @@ button {
   color: var(--accent-cyan);
 }
 
+.footer-logo .logo-image {
+  filter: brightness(0) invert(1);
+}
+
+.footer-logo {
+  color: #fff !important;
+}
+
 .footer-bottom {
   border-top: 1px solid var(--border-glass);
   padding-top: 24px;
@@ -718,7 +726,8 @@ button {
   display: flex;
   justify-content: space-between;
   color: var(--text-dim);
-  font-size: 13px; /* Slightly larger */
+  font-size: 13px;
+  /* Slightly larger */
 }
 
 .footer-left {

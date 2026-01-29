@@ -142,8 +142,8 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 72px;
-  font-size: 32px;
+  gap: 80px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;

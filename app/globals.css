@@ -73,7 +73,7 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 600;
@@ -456,8 +456,8 @@ button {
 }
 
 .section-header h2 {
-  font-size: 3.5rem;
-  /* Increased from 2.5rem */
+  font-size: 4rem;
+  /* Bigger section titles */
   color: var(--text);
   margin-bottom: 24px;
   /* Increased breathing room */

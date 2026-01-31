@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 function scrollToSection(id) {
   if (typeof window === "undefined") return;
@@ -21,6 +21,11 @@ function scrollToSection(id) {
 export default function HomePage() {
   const [navOpen, setNavOpen] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    document.body.classList.toggle("nav-open", navOpen);
+  }, [navOpen]);
 
   const handleNavToggle = useCallback(() => {
     setNavOpen((open) => !open);

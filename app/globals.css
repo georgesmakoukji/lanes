@@ -881,6 +881,21 @@ button {
     overflow-x: hidden;
   }
 
+  body.nav-open {
+    overflow: hidden;
+  }
+
+  body.nav-open::before {
+    content: '';
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 9998;
+  }
+
   .container {
     padding: 0 16px;
   }

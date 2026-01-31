@@ -724,7 +724,7 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--accent-cyan);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -736,7 +736,7 @@ button {
 .footer-social-icon svg {
   width: 22px;
   height: 22px;
-  fill: #020617;
+  fill: #0b1120;
 }
 
 .footer-column {

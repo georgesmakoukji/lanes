@@ -387,11 +387,11 @@ export default function HomePage() {
         <section className="section section-alt" id="contact">
           <div className="container">
             <div className="section-header">
-              <p className="eyebrow">Contact</p>
+              <p className="eyebrow">Contact Us</p>
               <h2>Talk to someone on the ground in Lebanon.</h2>
               <p className="section-subtitle">
                 Share a bit about what you&apos;re moving, where, and how often.
-                You&apos;ll hear back from Joe with clear next steps.
+                You&apos;ll hear back from our team with clear next steps.
               </p>
             </div>
 
@@ -468,7 +468,7 @@ export default function HomePage() {
                 </div>
 
                 <button type="submit" className="btn btn-primary form-submit">
-                  Message Joe
+                  Contact us
                 </button>
                 <p className="form-footnote">
                   We aim to respond within one business day. Your details are
@@ -476,8 +476,8 @@ export default function HomePage() {
                 </p>
                 {formSubmitted && (
                   <p className="form-success">
-                    Thank you — we&apos;ve received your details. Joe will reach
-                    out shortly.
+                    Thank you — we&apos;ve received your details. We&apos;ll
+                    reach out shortly.
                   </p>
                 )}
               </form>

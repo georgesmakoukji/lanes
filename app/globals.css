@@ -624,13 +624,11 @@ button {
 
 /* CONTACT */
 .contact-layout {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 40px;
   margin-top: 40px;
 }
 
 .contact-form {
+  width: 100%;
   background: var(--bg-card);
   padding: 40px;
   border-radius: var(--radius-xl);

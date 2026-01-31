@@ -117,11 +117,7 @@ export default function HomePage() {
                 <span className="eyebrow-dot">•</span>
                 Sea · Air · Road
               </p>
-              <h1>
-                From Beirut
-                <br />
-                to every major port.
-              </h1>
+              <h1>Your cargo moving in fast lanes</h1>
               <p className="hero-subtitle">
                 Lanes is a global shipping company, coordinating reliable,
                 modern logistics worldwide — from packing and delivering a

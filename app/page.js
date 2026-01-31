@@ -131,7 +131,7 @@ export default function HomePage() {
               <div className="hero-tags">
                 <span className="hero-tag">Export &amp; import</span>
                 <span className="hero-tag">Door-to-port &amp; port-to-door</span>
-                <span className="hero-tag">Lebanon as your regional hub</span>
+                <span className="hero-tag">Global hubs, local partners</span>
               </div>
 
               <div className="hero-actions">

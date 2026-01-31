@@ -5,6 +5,11 @@ import { useCallback, useState } from "react";
 
 function scrollToSection(id) {
   if (typeof window === "undefined") return;
+  // For true "back to top", scroll to the very top of the page
+  if (id === "top") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
   const el = document.getElementById(id);
   if (!el) return;
   const navOffset = 72;

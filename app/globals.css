@@ -79,6 +79,7 @@ button {
   font-weight: 700;
   color: var(--accent-cyan);
   margin-bottom: 12px;
+  white-space: nowrap;
 }
 
 .eyebrow-dot {

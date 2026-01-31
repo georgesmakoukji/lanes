@@ -613,8 +613,8 @@ button {
 }
 
 .section-layout .highlight-card {
-  /* Pull the box up so its top lines up with the main h2, not the blue label */
-  margin-top: -56px;
+  /* Position the top of the box roughly level with the main title, below the blue label */
+  margin-top: 64px;
 }
 
 /* CONTACT */

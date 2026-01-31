@@ -76,7 +76,7 @@ export default function HomePage() {
               Why Lanes
             </button>
             <button type="button" onClick={() => handleNavLinkClick("contact")}>
-              Contact
+              Contact Us
             </button>
           </nav>
 

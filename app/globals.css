@@ -949,6 +949,9 @@ button {
     color: #0f172a !important;
     background: transparent !important;
     border: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
   }
 
   .hero {

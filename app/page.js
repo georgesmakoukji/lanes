@@ -568,11 +568,30 @@ export default function HomePage() {
                 +961 3 644 411
               </a>
               <span className="footer-label">Address</span>
-              <span className="footer-text">Jdeideh, Metn, Lebanon</span>
-              <span className="footer-text">
+              <a
+                href="https://www.google.com/maps?q=33.887827,35.572922"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-text"
+              >
+                Jdeideh, Metn, Lebanon
+              </a>
+              <a
+                href="https://www.google.com/maps?q=33.887827,35.572922"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-text"
+              >
                 Palace of Justice street, Makoukji building
-              </span>
-              <span className="footer-text">Ground Floor</span>
+              </a>
+              <a
+                href="https://www.google.com/maps?q=33.887827,35.572922"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-text"
+              >
+                Ground Floor
+              </a>
               <span className="footer-label">Email us</span>
               <a
                 href="mailto:info@lanesinternational.com"

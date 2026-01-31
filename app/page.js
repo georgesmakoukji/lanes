@@ -525,13 +525,16 @@ export default function HomePage() {
               </button>
             </div>
             <div className="footer-column footer-contact">
+              <p className="footer-heading">Contact us</p>
               <span className="footer-label">Phone number</span>
-              <span className="footer-text">+961 1 000 000</span>
-              <span className="footer-text">+961 3 000 000</span>
+              <span className="footer-text">+961 364 4411</span>
               <span className="footer-label">Address</span>
-              <span className="footer-text">Beirut, Lebanon</span>
+              <span className="footer-text">
+                Jdeideh, Metn, Palace of justice street, Makoukji building,
+                Ground Floor
+              </span>
               <span className="footer-label">Email us</span>
-              <span className="footer-text">hello@lanes.ship</span>
+              <span className="footer-text">info@lanesinternational.com</span>
             </div>
           </div>
         </div>

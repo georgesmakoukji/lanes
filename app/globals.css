@@ -776,11 +776,7 @@ button {
 }
 
 .footer-logo .logo-image {
-  filter: brightness(0) invert(1);
-}
-
-.footer-logo {
-  color: #fff !important;
+  filter: none;
 }
 
 .footer-bottom {

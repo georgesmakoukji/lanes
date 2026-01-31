@@ -724,13 +724,19 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #facc15;
+  background: #ffffff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #020617;
   font-weight: 700;
   font-size: 18px;
+}
+
+.footer-social-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: #020617;
 }
 
 .footer-column {
@@ -791,6 +797,12 @@ button {
   color: var(--text-dim);
   font-size: 13px;
   /* Slightly larger */
+}
+
+.footer-bottom-copy {
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--text-dim);
 }
 
 .footer-left {

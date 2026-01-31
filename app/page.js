@@ -495,12 +495,29 @@ export default function HomePage() {
             </p>
             <div className="footer-social">
               <a href="#" className="footer-social-icon" aria-label="Lanes on Facebook">
-                F
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path d="M14.5 4H16a1 1 0 0 0 1-1V1.5A1.5 1.5 0 0 0 15.5 0h-2A5.5 5.5 0 0 0 8 5.5V8H6a1 1 0 0 0-1 1v2.5A1.5 1.5 0 0 0 6.5 13H8v9h3v-9h2.3a1 1 0 0 0 .98-.8l.5-2.5A1 1 0 0 0 13.8 8H11V5.5A1.5 1.5 0 0 1 12.5 4h2Z" />
+                </svg>
               </a>
               <a href="#" className="footer-social-icon" aria-label="Lanes on Instagram">
-                I
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17" cy="7" r="1.2" />
+                </svg>
               </a>
             </div>
+            <p className="footer-bottom-copy">
+              © {year} Lanes International SARL. All rights reserved.
+            </p>
           </div>
           <div className="footer-right">
             <div className="footer-column">
@@ -537,14 +554,6 @@ export default function HomePage() {
               <span className="footer-label">Email us</span>
               <span className="footer-text">info@lanesinternational.com</span>
             </div>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <div className="container footer-bottom-inner">
-            <span>© {year} Lanes. All rights reserved.</span>
-            <span className="footer-bottom-sub">
-              Built with reliability and operators in mind.
-            </span>
           </div>
         </div>
       </footer>

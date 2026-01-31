@@ -46,7 +46,11 @@ export default function HomePage() {
     <>
       <header className="nav">
         <div className="nav-inner container">
-          <div className="logo">
+          <button
+            type="button"
+            className="logo"
+            onClick={() => scrollToSection("top")}
+          >
             <span className="logo-mark">
               <Image
                 src="/lanes-logo.png"
@@ -57,7 +61,7 @@ export default function HomePage() {
                 priority
               />
             </span>
-          </div>
+          </button>
 
           <nav
             className={`nav-links ${navOpen ? "open" : ""}`}
@@ -477,7 +481,11 @@ export default function HomePage() {
       <footer className="footer">
         <div className="container footer-inner">
           <div className="footer-left">
-            <div className="logo footer-logo">
+            <button
+              type="button"
+              className="logo footer-logo"
+              onClick={() => scrollToSection("top")}
+            >
               <span className="logo-mark">
                 <Image
                   src="/lanes-logo.png"
@@ -487,7 +495,7 @@ export default function HomePage() {
                   height={72}
                 />
               </span>
-            </div>
+            </button>
             <p className="footer-copy">
               Lanes International SARL is a Lebanon-based shipping company
               helping brands move everything from single boxes to full

@@ -961,7 +961,7 @@ button {
   }
 
   .hero h1 {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     line-height: 1.1;
   }
 
@@ -1012,6 +1012,13 @@ button {
     padding: 40px 16px 24px;
   }
 
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
   .footer-top {
     flex-direction: column;
     gap: 28px;
@@ -1049,6 +1056,14 @@ button {
 
   .footer-bottom-copy {
     margin-top: 24px;
+  }
+
+  .contact-form {
+    padding: 24px 20px 32px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
   }
 
   .whatsapp-button {

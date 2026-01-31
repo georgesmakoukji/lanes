@@ -762,7 +762,8 @@ button {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #eab308;
+  color: var(--text-muted);
+  /* same tone as Home / Services footer links */
   margin-top: 8px;
 }
 
@@ -772,7 +773,7 @@ button {
 }
 
 .footer-contact .footer-text {
-  color: var(--accent-cyan);
+  color: #bfdbfe;
 }
 
 .footer-logo .logo-image {

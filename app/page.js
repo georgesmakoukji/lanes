@@ -219,7 +219,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="secondary-footer">
-                  We coordinate with ports, airports, and road partners in Lebanon
+                  We coordinate with ports, airports, and road partners worldwide
                   so your cargo doesn&apos;t get stuck between systems.
                 </div>
               </div>

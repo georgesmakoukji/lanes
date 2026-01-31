@@ -469,6 +469,11 @@ button {
   margin-bottom: 24px;
 }
 
+/* Match spacing under WHY LANES label to other section labels */
+.section-copy > .eyebrow {
+  margin-bottom: 24px;
+}
+
 .section-subtitle {
   font-size: 1.125rem;
   /* Increased from 1rem default/16px */

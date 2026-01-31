@@ -613,8 +613,8 @@ button {
 }
 
 .section-layout .highlight-card {
-  /* Position the top of the box roughly level with the main title, below the blue label */
-  margin-top: 64px;
+  /* Lower the box further so it sits on the same row visually with the content below the title */
+  margin-top: 96px;
 }
 
 /* CONTACT */

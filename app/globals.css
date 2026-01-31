@@ -930,13 +930,13 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000000 !important;
+    background-color: #0a0f18 !important;
     opacity: 1 !important;
     padding: 16px 24px 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    z-index: 90;
+    z-index: 9999;
   }
 
   .nav-links.open button {

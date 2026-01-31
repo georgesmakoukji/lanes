@@ -930,7 +930,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #0a0f18 !important;
+    background: #0a0f18 !important;
     opacity: 1 !important;
     padding: 16px 24px 40px;
     display: flex;

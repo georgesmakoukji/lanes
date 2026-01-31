@@ -876,15 +876,60 @@ button {
 
 /* MOBILE RESPONSIVE TWEAKS */
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 3rem;
+  html,
+  body {
+    overflow-x: hidden;
   }
 
-  .grid-3 {
-    grid-template-columns: 1fr;
+  .container {
+    padding: 0 16px;
+  }
+
+  .nav-inner {
+    padding: 0 16px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    padding: 120px 0 72px;
   }
 
   .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .hero-metadata {
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+  }
+
+  .hero-panel {
+    margin-top: 8px;
+  }
+
+  .hero-video {
+    margin-bottom: 16px;
+  }
+
+  .hero-video-element {
+    max-width: 100%;
+  }
+
+  .grid-3 {
     grid-template-columns: 1fr;
   }
 
@@ -900,17 +945,46 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .nav-inner {
-    padding: 0 16px;
+  .footer {
+    padding: 40px 16px 24px;
   }
 
-  .nav-links {
-    display: none;
+  .footer-top {
+    flex-direction: column;
+    gap: 28px;
   }
 
-  /* Simplified for now */
-  .hero-metadata {
+  .footer-columns {
     grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+    margin-top: 16px;
+  }
+
+  .footer-social-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+  }
+
+  .footer-social-icon svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .whatsapp-button {
+    right: 16px;
+    bottom: 16px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsapp-button svg {
+    width: 24px;
+    height: 24px;
   }
 }
 

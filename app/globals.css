@@ -936,7 +936,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     gap: 0;
-    min-height: 260px;
+    min-height: 340px;
     z-index: 9999;
     color: #0f172a !important;
     box-shadow: 0 12px 25px rgba(15, 23, 42, 0.45);

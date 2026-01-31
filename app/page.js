@@ -529,9 +529,9 @@ export default function HomePage() {
               <span className="footer-label">Phone number</span>
               <span className="footer-text">+961 364 4411</span>
               <span className="footer-label">Address</span>
+              <span className="footer-text">Jdeideh, Metn, Lebanon</span>
               <span className="footer-text">
-                Jdeideh, Metn, Palace of justice street, Makoukji building,
-                Ground Floor
+                Palace of Justice street, Makoukji building, GF
               </span>
               <span className="footer-label">Email us</span>
               <span className="footer-text">info@lanesinternational.com</span>

@@ -151,6 +151,12 @@ button {
   /* Slate 600 */
 }
 
+/* Ensure header nav typography wins over any globals */
+.nav .nav-links button {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+}
+
 .nav-links button:hover {
   color: #0f172a;
   /* Slate 900 */

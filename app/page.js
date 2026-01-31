@@ -324,7 +324,7 @@ export default function HomePage() {
             <div className="section-layout">
               <div className="section-copy">
                 <p className="eyebrow">Why Lanes</p>
-                <h2>A Lebanon team with a global view.</h2>
+                <h2>A Lebanese team with a global view.</h2>
                 <p className="section-subtitle">
                   You get the speed and pragmatism of a local Lebanese team with
                   the reach and standards of an international forwarder.

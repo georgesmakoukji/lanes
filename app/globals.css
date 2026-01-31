@@ -721,22 +721,39 @@ button {
 }
 
 .footer-social-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background-color: #facc15;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #ffffff; /* white background */
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #020617;
-  font-weight: 700;
-  font-size: 18px;
+  text-decoration: none;
 }
 
 .footer-social-icon svg {
-  width: 22px;
-  height: 22px;
-  fill: #020617;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.footer-social-icon--facebook circle {
+  fill: #000000; /* black outer circle */
+}
+
+.footer-social-icon--facebook path {
+  fill: #ffffff; /* white 'f' inside the black circle */
+}
+
+.footer-social-icon--instagram rect,
+.footer-social-icon--instagram circle {
+  stroke: #000000;
+  fill: transparent;
+}
+
+.footer-social-icon--instagram circle:last-of-type {
+  fill: #000000;
+  stroke: none;
 }
 
 .footer-column {

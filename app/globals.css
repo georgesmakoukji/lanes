@@ -833,6 +833,29 @@ button {
   display: contents;
 }
 
+/* WHATSAPP FLOATING BUTTON */
+.whatsapp-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 56px;
+  height: 56px;
+  border-radius: 9999px;
+  background: var(--accent-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  text-decoration: none;
+  z-index: 200;
+}
+
+.whatsapp-button svg {
+  width: 28px;
+  height: 28px;
+  fill: #ffffff;
+}
+
 /* MOBILE RESPONSIVE TWEAKS */
 @media (max-width: 768px) {
   .hero h1 {

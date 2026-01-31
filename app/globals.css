@@ -456,7 +456,7 @@ button {
 }
 
 .section-header h2 {
-  font-size: 5.5rem;
+  font-size: 11rem;
   font-weight: 800;
   /* Extra-large, bold section titles */
   color: var(--text);

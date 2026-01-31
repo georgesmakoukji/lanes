@@ -531,8 +531,9 @@ export default function HomePage() {
               <span className="footer-label">Address</span>
               <span className="footer-text">Jdeideh, Metn, Lebanon</span>
               <span className="footer-text">
-                Palace of Justice street, Makoukji building Ground Floor
+                Palace of Justice street, Makoukji building
               </span>
+              <span className="footer-text">Ground Floor</span>
               <span className="footer-label">Email us</span>
               <span className="footer-text">info@lanesinternational.com</span>
             </div>

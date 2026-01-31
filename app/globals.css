@@ -471,7 +471,7 @@ button {
 
 /* Match spacing under WHY LANES label to other section labels */
 .section-copy > .eyebrow {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .section-subtitle {
@@ -613,7 +613,7 @@ button {
 }
 
 .section-layout .highlight-card {
-  margin-top: 32px;
+  margin-top: 0;
 }
 
 /* CONTACT */

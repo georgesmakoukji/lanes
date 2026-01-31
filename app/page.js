@@ -128,6 +128,17 @@ export default function HomePage() {
                 single box to orchestrating a full network of containers.
               </p>
 
+              <div className="hero-video">
+                <video
+                  className="hero-video-element"
+                  src="/lanes-international-vid.mov"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                />
+              </div>
+
               <div className="hero-tags">
                 <span className="hero-tag">Export &amp; import</span>
                 <span className="hero-tag">Door-to-port &amp; port-to-door</span>
@@ -164,17 +175,6 @@ export default function HomePage() {
                   <p className="metric-label">Primary modes</p>
                   <p className="metric-value">Ocean · Air · Road</p>
                 </div>
-              </div>
-
-              <div className="hero-video">
-                <video
-                  className="hero-video-element"
-                  src="/lanes-international-vid.mov"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                />
               </div>
             </div>
 

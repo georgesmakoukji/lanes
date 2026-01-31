@@ -518,9 +518,17 @@ export default function HomePage() {
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <rect x="4" y="4" width="16" height="16" rx="5" ry="5" />
-                  <circle cx="12" cy="12" r="4.5" />
-                  <circle cx="16.5" cy="7.5" r="1.2" />
+                  <rect
+                    x="4"
+                    y="4"
+                    width="16"
+                    height="16"
+                    rx="5"
+                    ry="5"
+                    strokeWidth="2.4"
+                  />
+                  <circle cx="12" cy="12" r="4.5" strokeWidth="2.4" />
+                  <circle cx="16.5" cy="7.5" r="1.4" />
                 </svg>
               </a>
             </div>

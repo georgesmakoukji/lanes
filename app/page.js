@@ -115,8 +115,9 @@ export default function HomePage() {
               </h1>
               <p className="hero-subtitle">
                 Lanes is a shipping company headquartered in Lebanon. We turn
-                Beirut into your gateway for reliable, modern logistics — whether
-                you&apos;re moving a single container or a full global network.
+                Beirut into your gateway for reliable, modern logistics — from
+                packing and delivering a single box to coordinating a full global
+                network of containers.
               </p>
 
               <div className="hero-tags">

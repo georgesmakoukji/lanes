@@ -561,7 +561,12 @@ export default function HomePage() {
             <div className="footer-column footer-contact">
               <p className="footer-heading">Contact us</p>
               <span className="footer-label">Phone number</span>
-              <span className="footer-text">+961 364 4411</span>
+              <a
+                href="tel:+9613644411"
+                className="footer-text"
+              >
+                +961 3 644 411
+              </a>
               <span className="footer-label">Address</span>
               <span className="footer-text">Jdeideh, Metn, Lebanon</span>
               <span className="footer-text">
@@ -569,7 +574,12 @@ export default function HomePage() {
               </span>
               <span className="footer-text">Ground Floor</span>
               <span className="footer-label">Email us</span>
-              <span className="footer-text">info@lanesinternational.com</span>
+              <a
+                href="mailto:info@lanesinternational.com"
+                className="footer-text"
+              >
+                info@lanesinternational.com
+              </a>
             </div>
           </div>
         </div>

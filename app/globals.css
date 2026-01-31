@@ -124,16 +124,16 @@ button {
 
 .logo-mark {
   position: relative;
-  width: 160px;
-  height: 96px;
+  width: 200px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .logo-image {
-  width: 160px;
-  height: 96px;
+  width: 200px;
+  height: auto;
   object-fit: contain;
   filter: none;
   mix-blend-mode: normal;

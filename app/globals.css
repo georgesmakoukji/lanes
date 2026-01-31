@@ -701,13 +701,14 @@ button {
 .footer-inner {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 60px;
 }
 
 .footer-copy {
   max-width: 300px;
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 20px;
   line-height: 1.6;
 }
@@ -738,7 +739,7 @@ button {
 }
 
 .footer-heading {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 8px;
@@ -748,7 +749,7 @@ button {
 .footer-column button {
   text-align: left;
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: 16px;
   transition: color 0.2s;
 }
 
@@ -765,8 +766,12 @@ button {
 }
 
 .footer-text {
-  font-size: 14px;
-  color: var(--text-muted);
+  font-size: 16px;
+  color: var(--text);
+}
+
+.footer-contact .footer-text {
+  color: #bfdbfe;
 }
 
 .footer-logo .logo-image {
@@ -799,7 +804,7 @@ button {
 
 .footer-right {
   display: flex;
-  gap: 80px;
+  gap: 96px;
 }
 
 /* MOBILE RESPONSIVE TWEAKS */

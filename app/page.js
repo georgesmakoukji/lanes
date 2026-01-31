@@ -523,21 +523,11 @@ export default function HomePage() {
               >
                 Why Lanes
               </button>
-              <button
-                type="button"
-                onClick={() => handleNavLinkClick("contact")}
-              >
-                Contact us
-              </button>
             </div>
-            <div className="footer-column">
-              <p className="footer-heading">Contact us</p>
-              <span className="footer-label">Phone</span>
+            <div className="footer-column footer-contact">
               <span className="footer-text">+961 1 000 000</span>
               <span className="footer-text">+961 3 000 000</span>
-              <span className="footer-label">Address</span>
               <span className="footer-text">Beirut, Lebanon</span>
-              <span className="footer-label">Email</span>
               <span className="footer-text">hello@lanes.ship</span>
             </div>
           </div>

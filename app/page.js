@@ -469,24 +469,6 @@ export default function HomePage() {
                   </p>
                 )}
               </form>
-
-              <aside className="contact-aside">
-                <div className="mini-card">
-                  <p className="mini-label">Your contact</p>
-                  <p className="contact-person-name">Joe Ghaleb</p>
-                  <p className="contact-person-role">
-                    Client Partnerships · Beirut, Lebanon
-                  </p>
-                  <p className="mini-main">joe@lanes.ship</p>
-                </div>
-                <div className="mini-card secondary">
-                  <p className="mini-label">Based in</p>
-                  <p className="mini-main">
-                    Headquartered in Lebanon, operating with partners across EU,
-                    US, and MENA.
-                  </p>
-                </div>
-              </aside>
             </div>
           </div>
         </section>

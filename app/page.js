@@ -165,6 +165,17 @@ export default function HomePage() {
                   <p className="metric-value">Ocean · Air · Road</p>
                 </div>
               </div>
+
+              <div className="hero-video">
+                <video
+                  className="hero-video-element"
+                  src="/lanes-international-vid.mov"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                />
+              </div>
             </div>
 
             <div className="hero-panel" aria-hidden="true">

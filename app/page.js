@@ -390,8 +390,8 @@ export default function HomePage() {
               <p className="eyebrow">Contact Us</p>
               <h2>Talk to someone on the ground in Lebanon.</h2>
               <p className="section-subtitle">
-                Share a bit about what you&apos;re moving, where, and how often.
-                You&apos;ll hear back from our team with clear next steps.
+                Share a bit about what you&apos;re moving and where. You&apos;ll
+                hear back from our team with clear next steps.
               </p>
             </div>
 
@@ -430,18 +430,6 @@ export default function HomePage() {
                       placeholder="you@company.com"
                       required
                     />
-                  </div>
-                  <div className="form-field">
-                    <label htmlFor="volume">Monthly shipment volume</label>
-                    <select id="volume" name="volume" required defaultValue="">
-                      <option value="" disabled>
-                        Select a range
-                      </option>
-                      <option value="lt-50">Under 50</option>
-                      <option value="50-250">50 – 250</option>
-                      <option value="250-1000">250 – 1,000</option>
-                      <option value="gt-1000">1,000+</option>
-                    </select>
                   </div>
                 </div>
 

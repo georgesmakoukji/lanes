@@ -699,8 +699,9 @@ button {
 }
 
 .footer-inner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1.2fr;
+  column-gap: 80px;
   align-items: flex-start;
   margin-bottom: 60px;
 }
@@ -803,8 +804,7 @@ button {
 }
 
 .footer-right {
-  display: flex;
-  gap: 96px;
+  display: contents;
 }
 
 /* MOBILE RESPONSIVE TWEAKS */

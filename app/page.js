@@ -489,13 +489,25 @@ export default function HomePage() {
               </span>
             </div>
             <p className="footer-copy">
-              Lanes is a shipping facilitation company helping teams orchestrate
-              carriers, customs, and logistics with clarity and control.
+              Lanes International SARL is a Lebanon-based shipping company
+              helping brands move everything from single boxes to full
+              container loads with clarity and control.
             </p>
+            <div className="footer-social">
+              <a href="#" className="footer-social-icon" aria-label="Lanes on Facebook">
+                F
+              </a>
+              <a href="#" className="footer-social-icon" aria-label="Lanes on Instagram">
+                I
+              </a>
+            </div>
           </div>
           <div className="footer-right">
             <div className="footer-column">
-              <p className="footer-heading">Company</p>
+              <p className="footer-heading">Quick links</p>
+              <button type="button" onClick={() => scrollToSection("top")}>
+                Home
+              </button>
               <button type="button" onClick={() => handleNavLinkClick("services")}>
                 Services
               </button>
@@ -511,15 +523,22 @@ export default function HomePage() {
               >
                 Why Lanes
               </button>
+              <button
+                type="button"
+                onClick={() => handleNavLinkClick("contact")}
+              >
+                Contact us
+              </button>
             </div>
             <div className="footer-column">
-              <p className="footer-heading">Contact</p>
-              <button type="button" onClick={() => handleNavLinkClick("contact")}>
-                Talk to our team
-              </button>
-              <span className="footer-text">Primary contact: Joe Ghaleb</span>
-              <span className="footer-text">Email: joe@lanes.ship</span>
-              <span className="footer-text">Location: Beirut, Lebanon</span>
+              <p className="footer-heading">Contact us</p>
+              <span className="footer-label">Phone</span>
+              <span className="footer-text">+961 1 000 000</span>
+              <span className="footer-text">+961 3 000 000</span>
+              <span className="footer-label">Address</span>
+              <span className="footer-text">Beirut, Lebanon</span>
+              <span className="footer-label">Email</span>
+              <span className="footer-text">hello@lanes.ship</span>
             </div>
           </div>
         </div>

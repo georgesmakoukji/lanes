@@ -934,7 +934,8 @@ button {
     padding: 16px 16px 60px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    justify-content: space-evenly;
+    gap: 0;
     z-index: 9999;
     color: #0f172a !important;
     box-shadow: 0 12px 25px rgba(15, 23, 42, 0.45);

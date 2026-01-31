@@ -509,7 +509,9 @@ export default function HomePage() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/lanesinternational/?utm_source=ig_web_button_share_sheet"
+                target="_blank"
+                rel="noreferrer"
                 className="footer-social-icon footer-social-icon--instagram"
                 aria-label="Lanes on Instagram"
               >

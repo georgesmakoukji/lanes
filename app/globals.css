@@ -724,7 +724,7 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: var(--accent-cyan);
+  background-color: var(--accent-cyan);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -733,10 +733,24 @@ button {
   font-size: 18px;
 }
 
-.footer-social-icon svg {
-  width: 22px;
-  height: 22px;
-  fill: #0b1120;
+.footer-social-facebook,
+.footer-social-instagram {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 60%;
+  mask-size: 60%;
+}
+
+.footer-social-facebook {
+  -webkit-mask-image: url("/facebook-logo.png");
+  mask-image: url("/facebook-logo.png");
+}
+
+.footer-social-instagram {
+  -webkit-mask-image: url("/instagram-logo.png");
+  mask-image: url("/instagram-logo.png");
 }
 
 .footer-column {

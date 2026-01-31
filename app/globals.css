@@ -322,11 +322,7 @@ button {
 }
 
 .hero-video {
-  position: absolute;
-  top: 190px;
-  right: 7%;
-  width: 260px;
-  z-index: 1;
+  margin-bottom: 20px;
 }
 
 .hero-video-element {
@@ -335,12 +331,6 @@ button {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.7);
-}
-
-@media (max-width: 1024px) {
-  .hero-video {
-    display: none;
-  }
 }
 
 /* CARDS / HERO PANEL */

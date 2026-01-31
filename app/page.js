@@ -113,7 +113,7 @@ export default function HomePage() {
           <div className="hero-inner container">
             <div className="hero-content">
               <p className="eyebrow">
-                Lebanon-based global shipping
+                Global shipping partner
                 <span className="eyebrow-dot">•</span>
                 Sea · Air · Road
               </p>
@@ -123,10 +123,9 @@ export default function HomePage() {
                 to every major port.
               </h1>
               <p className="hero-subtitle">
-                Lanes is a shipping company headquartered in Lebanon. We turn
-                Beirut into your gateway for reliable, modern logistics — from
-                packing and delivering a single box to coordinating a full global
-                network of containers.
+                Lanes is a global shipping company, coordinating reliable,
+                modern logistics worldwide — from packing and delivering a
+                single box to orchestrating a full network of containers.
               </p>
 
               <div className="hero-tags">
@@ -190,7 +189,7 @@ export default function HomePage() {
                 </div>
                 <div className="hero-card-footer">
                   <span className="pill pill-soft">
-                    Lebanon at the center, shipments everywhere
+                    Your shipments, visible end to end
                   </span>
                 </div>
               </div>
@@ -221,33 +220,32 @@ export default function HomePage() {
           <div className="container">
             <div className="section-header">
               <p className="eyebrow">Services</p>
-              <h2>Shipping from Lebanon to the world — and back.</h2>
+              <h2>Shipping across the globe, end to end.</h2>
               <p className="section-subtitle">
-                Whether you&apos;re exporting from Lebanon, importing into it, or
-                using it as a hub for the region, Lanes designs and runs the
-                right routes for your cargo.
+                Whether you&apos;re exporting, importing, or running complex
+                multi‑lane networks, Lanes designs and runs the right routes for
+                your cargo worldwide.
               </p>
             </div>
 
             <div className="grid grid-3">
               <article className="card">
-                <h3>Ocean freight via Beirut</h3>
+                <h3>Global ocean freight</h3>
                 <p>
                   Full-container and consolidated services through Beirut with
                   reliable global connections.
                 </p>
                 <ul className="card-list">
-                  <li>FCL &amp; LCL from Beirut to major ports</li>
-                  <li>Import routing into Lebanon</li>
+                  <li>FCL &amp; LCL to and from major ports</li>
+                  <li>Coordinated origin and destination handling</li>
                   <li>Port-to-port and door-to-port options</li>
                 </ul>
               </article>
 
               <article className="card">
-                <h3>Air freight through BEY</h3>
+                <h3>Time‑critical air freight</h3>
                 <p>
-                  Fast, time-sensitive shipments via Beirut Rafic Hariri
-                  International Airport.
+                  Fast, time‑sensitive shipments through key global air hubs.
                 </p>
                 <ul className="card-list">
                   <li>Express and deferred air options</li>
@@ -257,13 +255,13 @@ export default function HomePage() {
               </article>
 
               <article className="card">
-                <h3>Regional road &amp; cross-border</h3>
+                <h3>Regional road &amp; cross‑border</h3>
                 <p>
-                  Road freight connecting Lebanon with key cities across the
-                  Middle East and beyond.
+                  Road freight connecting your key markets across regions and
+                  borders.
                 </p>
                 <ul className="card-list">
-                  <li>Lebanon–GCC and regional lanes</li>
+                  <li>Cross‑border lanes across MENA and Europe</li>
                   <li>Customs coordination at land borders</li>
                   <li>Dedicated and shared trucking options</li>
                 </ul>
@@ -295,10 +293,10 @@ export default function HomePage() {
               <div className="step">
                 <div className="step-number">2</div>
                 <div className="step-body">
-                  <h3>We design the best lane via Lebanon</h3>
+                  <h3>We design the best global lane</h3>
                   <p>
-                    We build a route that uses Lebanon as a hub when it makes
-                    sense, or connects directly if that&apos;s better for you.
+                    We build routes that balance speed, cost, and reliability,
+                    whether that&apos;s direct or via key global hubs.
                   </p>
                 </div>
               </div>
@@ -333,10 +331,10 @@ export default function HomePage() {
             <div className="section-layout">
               <div className="section-copy">
                 <p className="eyebrow">Why Lanes</p>
-                <h2>A Lebanese team with a global view.</h2>
+                <h2>A global team with a local view.</h2>
                 <p className="section-subtitle">
-                  You get the speed and pragmatism of a local Lebanese team with
-                  the reach and standards of an international forwarder.
+                  You get the speed and pragmatism of a hands‑on operations team
+                  with the reach and standards of an international forwarder.
                 </p>
                 <ul className="benefits-list">
                   <li>
@@ -344,9 +342,9 @@ export default function HomePage() {
                     <div>
                       <h3>Local expertise, global network</h3>
                       <p>
-                        We know how Lebanon&apos;s ports, airports, and borders
-                        really work — and we pair that with trusted partners
-                        worldwide.
+                        We know how ports, airports, and borders really work in
+                        the markets that matter to you — and we pair that with
+                        trusted partners worldwide.
                       </p>
                     </div>
                   </li>
@@ -377,8 +375,8 @@ export default function HomePage() {
                 <h3>Who we work best with</h3>
                 <p>We&apos;re a strong fit if you are:</p>
                 <ul className="card-list">
-                  <li>Shipping regularly in or out of Lebanon</li>
-                  <li>Running e‑commerce or B2B distribution across MENA</li>
+                  <li>Shipping regularly between global ports and regions</li>
+                  <li>Running e‑commerce or B2B distribution across markets</li>
                   <li>
                     Looking for one team to own sea, air, and road coordination
                   </li>
@@ -397,10 +395,10 @@ export default function HomePage() {
           <div className="container">
             <div className="section-header">
               <p className="eyebrow">Contact Us</p>
-              <h2>Talk to someone on the ground in Lebanon.</h2>
+              <h2>Tell us what you&apos;re moving and where.</h2>
               <p className="section-subtitle">
-                Share a bit about what you&apos;re moving and where. You&apos;ll
-                hear back from our team with clear next steps.
+                Share a bit about your shipments and lanes. Our global team will
+                get back to you with clear next steps.
               </p>
             </div>
 
@@ -502,9 +500,9 @@ export default function HomePage() {
               </span>
             </button>
             <p className="footer-copy">
-              Lanes International SARL is a Lebanon-based shipping company
-              helping brands move everything from single boxes to full
-              container loads with clarity and control.
+              Lanes International SARL is a global shipping company,
+              headquartered in Beirut, helping brands move everything from
+              single boxes to full container loads with clarity and control.
             </p>
             <div className="footer-social">
               <a

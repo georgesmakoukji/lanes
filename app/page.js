@@ -175,15 +175,15 @@ export default function HomePage() {
                 </div>
                 <div className="hero-card-body">
                   <div className="lane-row">
-                    <span>Beirut → Rotterdam</span>
-                    <span className="lane-status on-time">Sailing</span>
-                  </div>
-                  <div className="lane-row">
-                    <span>Beirut → Dubai</span>
+                    <span>Genoa → Beirut</span>
                     <span className="lane-status on-time">On time</span>
                   </div>
                   <div className="lane-row">
-                    <span>Beirut → Jeddah</span>
+                    <span>Shenzhen → Dammam</span>
+                    <span className="lane-status on-time">On time</span>
+                  </div>
+                  <div className="lane-row">
+                    <span>Beirut → Jebel Ali</span>
                     <span className="lane-status delayed">Port traffic</span>
                   </div>
                 </div>

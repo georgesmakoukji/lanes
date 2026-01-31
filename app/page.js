@@ -52,8 +52,8 @@ export default function HomePage() {
                 src="/lanes-logo.png"
                 alt="Lanes logo"
                 className="logo-image"
-                width={200}
-                height={80}
+                width={170}
+                height={68}
                 priority
               />
             </span>
